@@ -5,7 +5,7 @@
 
 This Xcode project demonstrates an application that has duplicate symbols present at runtime.
 
-The project has the following structure:
+The targets in this project have the following linking structure:
 
 ```none
 App

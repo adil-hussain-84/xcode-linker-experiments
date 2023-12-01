@@ -4,9 +4,9 @@
 
 This Xcode project demonstrates a workaround for applications that have duplicate symbols present at runtime.
 
-See [Experiment1][1] for an understanding of the kind of application structure that causes duplicate symbols to present at runtime.
+See [Experiment1][1] for an understanding of the kind of application structure that causes duplicate symbols to be present at runtime.
 
-This project works around the problem by embedding the duplicate symbols within a dynamic framwork that exists specifically to house those symbols. It has the following structure:
+This project works around the problem by housing the duplicate symbols within a dynamic framwork that exists specifically to house these symbols. The targets in this project have the following linking structure:
 
 ```none
 App
