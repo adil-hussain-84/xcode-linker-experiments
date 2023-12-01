@@ -9,8 +9,8 @@ The project has the following structure:
 
 ```none
 App
- |-->DynamicFramework1 --> StaticLibrary   
- |-->DynamicFramework2 --> StaticLibrary
+ |--> DynamicFramework1 --> StaticLibrary
+ |--> DynamicFramework2 --> StaticLibrary
 ```
 
 When you run the application and inspect the console output, you will see the following warning:
